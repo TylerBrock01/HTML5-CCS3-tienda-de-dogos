@@ -19,6 +19,35 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+/*navegacion principal*/
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto 0 auto;
+}
+.boton{
+    background-color: var(--verde);
+    color: white;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+}
+@media (min-width: 768px ){
+    .navegacion-principal {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .boton{
+        width: auto;
+    }
+}
 h1 {
     font-size: 3.8rem;
 }
@@ -39,23 +68,6 @@ h1,h2,h3,p{
 .titulo span{
     color: royalblue;
 }
-.contenedor{
-    max-width: 120rem;
-    margin: 0 auto 0 auto;
-}
-.boton{
-    background-color: var(--verde);
-    color: white;
-    padding: 1rem 3rem;
-    margin-top: 1rem;
-    font-size: 2rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-radius: .5rem;
-    width: 90%;
-    text-align: center;
-}
 .navegacion-principal{
     background-color: var(--azul-oscuro);
     display: flex;
@@ -73,13 +85,14 @@ h1,h2,h3,p{
     background-color: yellow;
     color: black;
 }
+/*imagen*/
 .fondito {
     background-image: url("../img/vehicle.png") ;
     background-repeat: no-repeat;
     background-size: cover;
     height: 410px;
     position: relative;
-} /**imagen**/
+}
 .contenido-fondito{
     position: absolute;
     background-color: rgb(0 0 0 / .6);
@@ -97,17 +110,6 @@ h1,h2,h3,p{
 .nav-bag{
     background-color: limegreen;
     display: flex;
-}
-@media (min-width: 768px ){
-    .navegacion-principal {
-        flex-direction: row;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .boton{
-        width: auto;
-    }
 }
 .ubicacion{
     display: flex;
