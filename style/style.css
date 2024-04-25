@@ -35,15 +35,26 @@ body{
     background-color: var(--azul-gris);
     padding: 1rem;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 .nav-bag{
     background-color: var(--amarillo);
 }
 .navegacion-principal a {
-    color: var(--azul-oscuro);
+    color: white;
     text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.navegacion-principal a:hover{
+    background-color: #FAD02C;
+    color: black;
 }
 p{
     background-color: cornsilk;
+}
+@media (min-width: ){
+
 }
