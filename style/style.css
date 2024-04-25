@@ -3,7 +3,7 @@
     --gris: #808080;
     --azul-gris: #90ADC6;
     --pere:#E9EAEC;
-    --amarillo: #FAD02C;
+    --amarillo: rgb(255 255 0 / 0.5); ;
     --azul-oscuro: #333652;
 }
 html{
@@ -14,10 +14,6 @@ html{
     box-sizing: inherit;
 }
 body{
-    background-image: url("../img/city.jpg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-
     font-size: 16px;
     font-family: "Sedan", serif;
     font-weight: 400;
@@ -66,7 +62,7 @@ h1,h2,h3,p{
     color: black;
 }
 .fondito {
-    /*background-image: url("../img/city.jpg") ;*/
+    background-image: url("../img/city.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
     height: 410px;
@@ -83,15 +79,15 @@ h1,h2,h3,p{
     align-items: center;
     justify-content: center;
 }
-.contenido-fondito h2, .contenido-fondito ,p{
+.contenido-fondito h2, .contenido-fondito{
     color: white;
 }
 .nav-bag{
-    background-color: var(--amarillo);
+    background-color: yellow;
     display: flex;
 }
 p{
-    background-color: rgb( 1 1 1 / .7);
+    /*background-color: rgb( 1 1 1 / .7);*/
 }
 @media (min-width: 768px ){
     .navegacion-principal {
@@ -100,5 +96,8 @@ p{
         align-items: center;
         justify-content: center;
     }
-
+}
+.ubicacion{
+    display: flex;
+    align-items: flex-end;
 }
