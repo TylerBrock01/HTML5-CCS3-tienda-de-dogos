@@ -24,7 +24,7 @@ body{
 
     }
 .contenedor{
-    width: 60rem;
+    max-width: 120rem;
     margin: 0 auto 0 auto;
 }
 .titulo span{
@@ -34,8 +34,9 @@ body{
 .navegacion-principal{
     background-color: var(--azul-gris);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .nav-bag{
     background-color: var(--amarillo);
@@ -53,4 +54,9 @@ body{
 }
 p{
     background-color: cornsilk;
+}
+@media (min-width:768px ){
+    .navegacion-principal{
+        flex-direction: row;
+    }
 }
