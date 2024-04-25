@@ -74,12 +74,12 @@ h1,h2,h3,p{
     color: black;
 }
 .fondito {
-    background-image: url("../img/city.jpg") ;
+    background-image: url("../img/vehicle.png") ;
     background-repeat: no-repeat;
     background-size: cover;
     height: 410px;
     position: relative;
-}
+} /**imagen**/
 .contenido-fondito{
     position: absolute;
     background-color: rgb(0 0 0 / .6);
