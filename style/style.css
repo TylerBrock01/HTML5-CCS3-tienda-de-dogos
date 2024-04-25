@@ -35,7 +35,6 @@ h1,h2,h3,p{
     font-family: "Sedan", serif;
     font-weight: 400;
     font-style: italic;
-
     }
 .titulo span{
     color: royalblue;
@@ -44,8 +43,21 @@ h1,h2,h3,p{
     max-width: 120rem;
     margin: 0 auto 0 auto;
 }
+.boton{
+    background-color: var(--verde);
+    color: white;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+}
 .navegacion-principal{
-    background-color: var(--azul-gris);
+    background-color: var(--azul-oscuro);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,7 +70,7 @@ h1,h2,h3,p{
     padding: 1rem;
 }
 .navegacion-principal a:hover{
-    background-color: #FAD02C;
+    background-color: yellow;
     color: black;
 }
 .fondito {
@@ -83,11 +95,8 @@ h1,h2,h3,p{
     color: white;
 }
 .nav-bag{
-    background-color: yellow;
+    background-color: limegreen;
     display: flex;
-}
-p{
-    /*background-color: rgb( 1 1 1 / .7);*/
 }
 @media (min-width: 768px ){
     .navegacion-principal {
@@ -95,6 +104,9 @@ p{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .boton{
+        width: auto;
     }
 }
 .ubicacion{
