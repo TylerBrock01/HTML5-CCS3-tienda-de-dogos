@@ -41,9 +41,6 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.nav-bag{
-    background-color: var(--amarillo);
-}
 .navegacion-principal a {
     color: white;
     text-decoration: none;
@@ -54,14 +51,6 @@ body{
 .navegacion-principal a:hover{
     background-color: #FAD02C;
     color: black;
-}
-p{
-    background-color: var(--verde);
-}
-@media (min-width: 768px ){
-    .navegacion-principal {
-        flex-direction: row;
-    }
 }
 .fondito {
     background-image: url("../img/city.jpg") ;
@@ -75,8 +64,28 @@ p{
     background-color: rgb(0 0 0 / .6);
     width: 100%;
     height: 100%;
+    /** alinear horizontal y vertical **/
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.contenido-fondito h2, .contenido-fondito ,p{
+    color: white;
+}
+.nav-bag{
+    background-color: var(--amarillo);
+    display: flex;
+}
+p{
+    background-color: rgb( 1 1 1 / .7);
+}
+@media (min-width: 768px ){
+    .navegacion-principal {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
