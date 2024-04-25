@@ -14,26 +14,39 @@ html{
     box-sizing: inherit;
 }
 body{
+    background-image: url("../img/city.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     font-size: 16px;
     font-family: "Sedan", serif;
     font-weight: 400;
     font-style: normal;
 }
-.titulo {
-    text-align: center;
+h1 {
     font-size: 3.8rem;
+}
+h2 {
+    font-size: 2.8rem;
+}
+h3{
+    font-size: 1.8rem;
+}
+h1,h2,h3,p{
+    text-align: center;
+}
+.titulo {
     font-family: "Sedan", serif;
     font-weight: 400;
     font-style: italic;
 
     }
+.titulo span{
+    color: royalblue;
+}
 .contenedor{
     max-width: 120rem;
     margin: 0 auto 0 auto;
-}
-.titulo span{
-    font-size:2.8rem;
-    color: brown;
 }
 .navegacion-principal{
     background-color: var(--azul-gris);
@@ -53,7 +66,7 @@ body{
     color: black;
 }
 .fondito {
-    background-image: url("../img/city.jpg") ;
+    /*background-image: url("../img/city.jpg") ;*/
     background-repeat: no-repeat;
     background-size: cover;
     height: 410px;
