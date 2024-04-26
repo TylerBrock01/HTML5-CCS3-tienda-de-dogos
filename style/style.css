@@ -38,11 +38,22 @@ body{
     text-align: center;
 }
 @media (min-width: 768px ){
-    .navegacion-principal {
-
+    .navegacion-principal{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+    body{
+        background-color: grey;
     }
     .boton{
         width: auto;
+    }
+}
+@media (max-width: 440px){
+    .navegacion-principal{
+        flex-direction: column;
     }
 }
 h1 {
@@ -69,7 +80,6 @@ h1,h2,h3,p{
     background-color: var(--azul-oscuro);
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     align-items: center;
 }
 .navegacion-principal a {
