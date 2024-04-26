@@ -39,7 +39,6 @@ body{
 }
 @media (min-width: 768px ){
     .navegacion-principal{
-        display: flex;
         justify-content: space-between;
         flex-direction: row;
         align-items: center;
@@ -51,9 +50,11 @@ body{
         width: auto;
     }
 }
-@media (max-width: 440px){
-    .navegacion-principal{
+@media (max-width: 480px){
+    .navegacion-principal {
         flex-direction: column;
+    }.navegacion-principal a{
+        justify-content: center;
     }
 }
 h1 {
@@ -80,13 +81,14 @@ h1,h2,h3,p{
     background-color: var(--azul-oscuro);
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .navegacion-principal a {
+    display: block;
+    text-align: center;
     color: white;
     text-decoration: none;
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 700;
     padding: 1rem;
 }
 .navegacion-principal a:hover{
@@ -118,6 +120,7 @@ h1,h2,h3,p{
 .nav-bag{
     background-color: limegreen;
     display: flex;
+
 }
 .ubicacion{
     display: flex;
