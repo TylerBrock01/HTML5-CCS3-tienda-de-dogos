@@ -18,6 +18,7 @@ body{
     font-family: "Sedan", serif;
     font-weight: 400;
     font-style: normal;
+    background-image: linear-gradient(to top, grey 0%,darkgreen 100%);
 }
 /*navegacion principal*/
 .contenedor{
@@ -43,9 +44,6 @@ body{
         flex-direction: row;
         align-items: center;
     }
-    body{
-        background-color: grey;
-    }
     .boton{
         width: auto;
     }
@@ -57,6 +55,12 @@ body{
         justify-content: center;
     }
 }
+.sombra{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: grey;
+    padding: 2rem;
+    border-radius: 2rem;
+}
 h1 {
     font-size: 3.8rem;
 }
@@ -66,7 +70,7 @@ h2 {
 h3{
     font-size: 1.8rem;
 }
-h1,h2,h3,p{
+h1,h2{
     text-align: center;
 }
 .titulo {
@@ -78,7 +82,7 @@ h1,h2,h3,p{
     color: royalblue;
 }
 .navegacion-principal{
-    background-color: var(--azul-oscuro);
+    background-color: grey;
     display: flex;
     justify-content: space-between;
 }
@@ -102,6 +106,7 @@ h1,h2,h3,p{
     background-size: cover;
     height: 410px;
     position: relative;
+    margin: 2rem;
 }
 .contenido-fondito{
     position: absolute;
@@ -118,7 +123,7 @@ h1,h2,h3,p{
     color: white;
 }
 .nav-bag{
-    background-color: limegreen;
+    background-color: green;
     display: flex;
 
 }
