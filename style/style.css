@@ -177,3 +177,18 @@ h1,h2,h3, h4{
     margin-bottom: 2rem;
     color: yellow;
 }
+.contenedor-campos{
+
+}
+.campo{
+    margin-bottom: 1rem;
+}
+.campo label{
+    color: white;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+.campo input{
+    background-color: grey;
+}
