@@ -35,7 +35,7 @@ body{
     text-transform: uppercase;
     font-weight: bold;
     border-radius: .5rem;
-    width: 90%;
+    /*width: 90%;*/
     text-align: center;
     border: none;
 }
@@ -48,9 +48,6 @@ body{
         flex-direction: row;
         align-items: center;
     }
-    .boton{
-        width: auto;
-    }
     .productos{
         padding: 1rem;
         display: grid;
@@ -59,6 +56,13 @@ body{
         justify-content: center;
         align-items: center;
     }
+    .w-100{
+        width: auto;
+    }
+    .contenedor-campos{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 @media (max-width: 480px){
     .navegacion-principal {
@@ -66,6 +70,9 @@ body{
     }
     .navegacion-principal a{
         justify-content: center;
+    }
+    .w-100{
+        width: 100%;
     }
 }
 .sombra{
@@ -86,8 +93,12 @@ h3{
 h1,h2,h3, h4{
     text-align: center;
 }
-.w-100{
-    width: 100%;
+
+.flex{
+    display: flex;
+}
+.alinear-derecha{
+    justify-content: flex-end;
 }
 .titulo {
     font-family: "Sedan", serif;
@@ -184,9 +195,10 @@ h1,h2,h3, h4{
     margin-bottom: 2rem;
     color: lime;
 }
-.contenedor-campos{
+/*.contenedor-campos{*/
+/*    display: grid;*/
 
-}
+/*}*/
 .campo{
     margin-bottom: 1rem;
 }
@@ -199,12 +211,12 @@ h1,h2,h3, h4{
 .campo input{
 
 }
+.campo textarea{
+    height: 20rem;
+}
 .text-st{
     width: 100%;
     border: none;
     padding: 1.5rem;
     border-radius: 1.5rem;
-}
-.enviar .boton{
-    width: 100%;
 }
