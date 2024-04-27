@@ -110,7 +110,7 @@ h1,h2,h3{
 }
 /*imagen*/
 .fondito {
-    background-image: url("../img/vehicle.png") ;
+    background-image: url("../../img/banana.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
     height: 410px;
@@ -147,7 +147,13 @@ h1,h2,h3{
     /*justify-content: center;*/
     /*align-items: center;*/
 }
+.productos p{
+    line-height: 2;
+    font-weight: normal;
+    color: white;
+}
 .productos h3{
+    color: white;
 }
 .productos .iconos{
     margin: auto;
