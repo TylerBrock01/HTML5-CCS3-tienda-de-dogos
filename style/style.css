@@ -86,6 +86,9 @@ h3{
 h1,h2,h3, h4{
     text-align: center;
 }
+.w-100{
+    width: 100%;
+}
 .titulo {
     font-family: "Sedan", serif;
     font-weight: 400;
@@ -201,4 +204,7 @@ h1,h2,h3, h4{
     border: none;
     padding: 1.5rem;
     border-radius: 1.5rem;
+}
+.enviar .boton{
+    width: 100%;
 }
