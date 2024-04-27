@@ -9,6 +9,7 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box;
+    scroll-snap-type: y mandatory;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -168,7 +169,15 @@ h1,h2,h3{
     display: flex;
     align-items: flex-end;
 }
-
+header,
+.scroll-producto,
+.navegacion-principal,
+.sub,
+.productos,
+.formulario{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
 .productos p{
     line-height: 2;
     font-weight: normal;
