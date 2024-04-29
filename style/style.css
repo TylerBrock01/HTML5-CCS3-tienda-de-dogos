@@ -125,8 +125,9 @@ h1,h2,h3{
     font-weight: 400;
     font-style: italic;
     }
+
 .titulo span{
-    color: royalblue;
+    color: whitesmoke;
 }
 .navegacion-principal{
     background-color: grey;
